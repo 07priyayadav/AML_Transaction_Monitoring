@@ -15,20 +15,19 @@ Develop a transaction monitoring system that:
 ## Project Structure
 
 AML_Transaction_Monitoring/
-├── nifi-config/ # Apache NiFi configuration files
-├── spark-scripts/ # Apache Spark scripts for data processing and ML models
-├── flask-api/ # Flask API for interaction with Spark jobs
-├── airflow-dags/ # Apache Airflow DAGs for orchestrating workflows
-├── docker/ # Docker configurations (Dockerfile, docker-compose.yml)
-├── data/ # Data storage (datasets, outputs)
-├── notebooks/ # Jupyter Notebooks for data analysis and ML models
-└── README.md # Project documentation
+    - * nifi-config/ # Apache NiFi configuration files
+    - * spark-scripts/ # Apache Spark scripts for data processing and ML models
+    - * flask-api/ # Flask API for interaction with Spark jobs
+    - * airflow-dags/ # Apache Airflow DAGs for orchestrating workflows
+    - * docker/ # Docker configurations (Dockerfile, docker-compose.yml)
+    - * data/ # Data storage (datasets, outputs)
+    - * notebooks/ # Jupyter Notebooks for data analysis and ML models
+    - * README.md # Project documentation
 
 
 ## Setup and Installation
 
 1. **Clone the Repository:**
-    - ```bash
     - git clone https://github.com/07priyayadav/AML_Transaction_Monitoring.git
     - cd AML_Transaction_Monitoring
 
