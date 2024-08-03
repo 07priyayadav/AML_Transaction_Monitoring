@@ -7,10 +7,10 @@ This project aims to develop a transaction monitoring system to identify potenti
 ## Problem Statement
 
 Develop a transaction monitoring system that:
-    * Identifies potentially fraudulent transactions based on historical data.
-    * Preprocesses and cleanses data.
-    * Applies machine learning models to detect anomalies.
-    * Provides insights and alerts for suspicious activities.
+   * Identifies potentially fraudulent transactions based on historical data.
+   * Preprocesses and cleanses data.
+   * Applies machine learning models to detect anomalies.
+   * Provides insights and alerts for suspicious activities.
 
 ## Project Structure
 
