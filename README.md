@@ -14,15 +14,15 @@ Develop a transaction monitoring system that:
 
 ## Project Structure
 
-AML_Transaction_Monitoring/
-    - nifi-config/ # Apache NiFi configuration files
-    - spark-scripts/ # Apache Spark scripts for data processing and ML models
-    - flask-api/ # Flask API for interaction with Spark jobs
-    - airflow-dags/ # Apache Airflow DAGs for orchestrating workflows
-    - docker/ # Docker configurations (Dockerfile, docker-compose.yml)
-    - data/ # Data storage (datasets, outputs)
-    - notebooks/ # Jupyter Notebooks for data analysis and ML models
-    - README.md # Project documentation
+AML_Transaction_Monitoring
+   - nifi-config # Apache NiFi configuration files
+   - spark-scripts # Apache Spark scripts for data processing and ML models
+   - flask-api # Flask API for interaction with Spark jobs
+   - airflow-dags # Apache Airflow DAGs for orchestrating workflows
+   - docker # Docker configurations (Dockerfile, docker-compose.yml)
+   - data # Data storage (datasets, outputs)
+   - notebooks # Jupyter Notebooks for data analysis and ML models
+   - README.md # Project documentation
 
 
 ## Setup and Installation
